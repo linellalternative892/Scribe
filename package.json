@@ -5,9 +5,30 @@
   "private": false,
   "license": "MIT",
   "author": "RapierCraft",
+  "main": "src/components/content/index.ts",
+  "types": "src/lib/types.ts",
+  "homepage": "https://github.com/RapierCraft/Scribe",
+  "bugs": {
+    "url": "https://github.com/RapierCraft/Scribe/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RapierCraft/scribe"
+    "url": "https://github.com/RapierCraft/Scribe"
+  },
+  "files": [
+    "src/",
+    "public/scribe-logo.svg",
+    "scribe.config.ts",
+    "mdx-components.tsx",
+    "next.config.js",
+    "tailwind.config.ts",
+    "tsconfig.json",
+    "postcss.config.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.17.0"
   },
   "keywords": [
     "documentation",
