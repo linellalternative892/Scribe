@@ -13,7 +13,7 @@ The open-source alternative to Mintlify — built on Next.js App Router.
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 
-[Demo](https://scribe-docs.vercel.app) · [Quick Start](#quick-start) · [Components](#components) · [Configuration](#configuration)
+[Demo](https://scribedocs.vercel.app) · [Quick Start](#quick-start) · [Components](#components) · [Configuration](#configuration)
 
 </div>
 
