@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="quill" x1="20" y1="20" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#e0e7ff" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect width="80" height="80" rx="18" fill="url(#bg)"/>
+
+  <!-- Subtle inner glow ring -->
+  <rect x="1" y="1" width="78" height="78" rx="17" fill="none" stroke="white" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Quill feather body -->
+  <path d="M54 14 C62 22, 64 34, 56 46 C52 52, 46 56, 40 58 L36 62 L34 54 C30 50, 28 44, 30 38 C34 26, 44 16, 54 14Z"
+        fill="url(#quill)" fill-opacity="0.95"/>
+
+  <!-- Quill spine / shaft -->
+  <path d="M54 14 L34 54" stroke="#6366f1" stroke-width="1.5" stroke-opacity="0.4" stroke-linecap="round"/>
+
+  <!-- Quill barbs left -->
+  <path d="M49 22 C44 26, 40 30, 36 36"
+        fill="none" stroke="white" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round"/>
+  <path d="M46 28 C42 32, 39 36, 36 41"
+        fill="none" stroke="white" stroke-opacity="0.4" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M43 34 C40 37, 38 41, 36 45"
+        fill="none" stroke="white" stroke-opacity="0.3" stroke-width="0.8" stroke-linecap="round"/>
+
+  <!-- Nib tip -->
+  <path d="M34 54 L30 62 L38 58 Z" fill="white" fill-opacity="0.9"/>
+
+  <!-- Ink lines (3 horizontal strokes below quill tip — "writing") -->
+  <line x1="20" y1="62" x2="28" y2="62" stroke="white" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="66" x2="32" y2="66" stroke="white" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="70" x2="25" y2="70" stroke="white" stroke-opacity="0.25" stroke-width="2" stroke-linecap="round"/>
+</svg>
